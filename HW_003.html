@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Заика Алексей</title>
+    <link rel="stylesheet" href="./assets/style.css">
+</head>
+<body>
+    <script language="JavaScript">
+      let name = prompt("Введите имя:", "Имя");
+      alert("Привет, " + name);
+      let age = parseInt(prompt("Сколько вам лет?", "Возраст"));
+      switch (age) {
+        case 3:
+          alert("Вам в садик!");
+          break;
+        case 10:
+          alert("Пора в школу");
+          break;
+        case 20:
+          alert("Скоро сессия");
+          break;
+        case 30:
+          alert("Пора на работу");
+          break;
+        case 60:
+          alert("Скоро пенсия");
+          break;
+        default:
+          alert("Такого не знаю!");
+      }
+    </script>
+    <section class="wrapper">
+        <h1>Домашнее задание</h1>
+        <div class="box">
+            <h1 class="title">Заголовок</h1>
+            <h2 class="titleDesc">Нажмите кнопку и поменяется цвет</h2>
+        </div>
+        <button id="btn">Click me</button>
+    </section>
+    <script src="./assets/scripts/script.js"></script>
+
+</body>
+</html>
